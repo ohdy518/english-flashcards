@@ -48,7 +48,7 @@
             defSet = localWords.pop()
             correct = 0
         } else {
-            defSet = {word: "finished!", fos: "!", def: "review words answered incorrectly?"};
+            defSet = {word: "finished!", fos: "!", def: (wrongList.length > 0 ? "review words answered incorrectly?" : "you got everything correct.")};
             correct = 1
             showReviewButton()
         }
@@ -63,7 +63,9 @@
 
     function showReviewButton () {
         document.getElementById("form").hidden = true;
-        document.getElementById("review-button").hidden = false;
+        if (wrongList.length > 0) {
+            document.getElementById("review-button").hidden = false;
+        }
     }
 
     function startReview() {
@@ -121,5 +123,5 @@
         <input id="userInput" bind:value={userInput} class="bg-zinc-50 h-8 sm:h-10 w-48 sm:w-72 border-2 border-zinc-600 px-2 mr-2 jbm text-base" placeholder="enter word..."/>
         <button id="check" class="bg-zinc-50 px-1.5 h-full border-2 border-zinc-600" on:click={userSubmit}>-> {correct===0?"Check":"Next"}</button>
     </form>
-    <button id="review-button" class="mt-12 bg-zinc-50 px-1.5 h-8 border-2 border-zinc-600" on:click={startReview()} hidden>-> Review</button>
+    <button id="review-button" class="mt-12 bg-zinc-50 px-1.5 h-8 border-2 border-zinc-600" on:click={startReview} hidden>-> Review</button>
 </div>
