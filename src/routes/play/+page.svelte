@@ -74,7 +74,7 @@
         document.getElementById("form").hidden = false;
         localWords = wrongList;
         totalLen = wrongList.length;
-        wrongList = 0[]
+        wrongList = []
 
         newWord()
 
