@@ -75,6 +75,7 @@
         document.getElementById("review-button").hidden = true;
         document.getElementById("form").hidden = false;
         localWords = wrongList;
+        localWords = shuffleArray(localWords);
         totalLen = wrongList.length;
         wrongList = []
 
