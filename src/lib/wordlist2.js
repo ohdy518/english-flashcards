@@ -39,7 +39,7 @@ export const words = [
   {word: "fix", fos: "v.", def: "to repair; to prepare food; to decide something."},
   {word: "presentable", fos: "adj.", def: "looking neat, clean, and good enough to be seen in public."},
   {word: "mistrusted", fos: "adj.", def: "not trusted; thought to be dishonest."},
-  {word: "latch onto", fos: "v.", def: "to grab and hold tightly; to become attached to."},
+  {word: "latch onto", fos: "phr. v.", def: "to grab and hold tightly; to become attached to."},
   {word: "behave oneself", fos: "phr.", def: "to act properly; to be polite and not cause trouble."},
   {word: "barren", fos: "adj.", def: "not able to produce plants; empty and lifeless."},
   
