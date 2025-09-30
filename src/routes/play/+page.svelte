@@ -1,6 +1,6 @@
 <script>
     import Content from "./Content.svelte";
-    import {words} from "$lib/wordlist.js";
+    import {words} from "$lib/wordlist2.js";
     import {browser} from "$app/environment";
 
     let totalLen = words.length;
