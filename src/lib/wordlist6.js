@@ -100,7 +100,7 @@ export const words = [
     {word: "pluck", fos: "v.", def: "To pull off or out; to pick."},
     {word: "ponder", fos: "v.", def: "To think about; to consider carefully."},
     {word: "privilege", fos: "n.", def: "A special favor, right, or advantage given to a person or group."},
-    {word: "porstrate", fos: "adj.", def: "Lying flat."},
+    {word: "prostrate", fos: "adj.", def: "Lying flat."},
     {word: "rapture", fos: "n.", def: "A state of great joy, delight, or love."},
     {word: "revelry", fos: "n.", def: "Noisy merrymaking."},
     {word: "whim", fos: "n.", def: "A sudden wish to do something without a particular reason; a fanciful idea."},
