@@ -49,7 +49,7 @@ export const words = [
     {word: "devout", fos: "adj.", def: "Sincere."},
     {word: "distraught", fos: "adj.", def: "Deeply disturbed; very troubled."},
     {word: "enlighten", fos: "v.", def: "To inform or instruct; to give knowledge or truth to."},
-    {word: "englithened", fos: "adj.", def: "Free from ignorance or prejudice."},
+    {word: "enlightened", fos: "adj.", def: "Free from ignorance or prejudice."},
     {word: "incline", fos: "v.", def: "To slope or lean."},
     {word: "incline", fos: "v.", def: "To be likely to; to have a fondness for."},
     {word: "incline", fos: "v.", def: "To bend or bow (the head)."},
@@ -83,6 +83,6 @@ export const words = [
     {word: "scanty", fos: "adj.", def: "Not enough or just barely enough; small in size or amount."},
     {word: "strait", fos: "n.", def: "A narrow body of water connecting two larger ones."},
     {word: "straits", fos: "n.", def: "Trouble or need."},
-    {word: "zest", fos: "n.", def: "Gerat enjoyment; excitement."},
+    {word: "zest", fos: "n.", def: "Great enjoyment; excitement."},
     {word: "zestful", fos: "adj.", def: "Full of zest."}
 ];
